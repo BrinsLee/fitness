@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@mipmap/background">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/touxiang"
+        android:layout_centerInParent="true"
+        android:src="@drawable/touxiang" />
+    <TextView
+        android:id="@+id/nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/touxiang"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:text="昵称"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nickname"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:text="1234567889@qq.com"/>
+</RelativeLayout>

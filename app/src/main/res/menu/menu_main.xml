@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/friends"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home"/>
+
+        <item
+            android:id="@+id/record"
+            android:icon="@drawable/ic_run"
+            android:title="@string/record"/>
+        <item
+            android:id="@+id/target"
+            android:icon="@drawable/ic_target"
+            android:title="@string/target"/>
+    </group>
+
+    <item  android:title="@string/other">
+        <menu>
+            <item
+                android:id="@+id/setting"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/setting"/>
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_help"
+                android:title="@string/help"/>
+
+        </menu>
+    </item>
+    <item
+        android:title="@string/theme">
+        <menu>
+            <item
+                android:id="@+id/night"
+                android:icon="@drawable/ic_paint"
+                android:title="@string/night"
+                />
+
+        </menu>
+
+
+    </item>
+
+</menu>

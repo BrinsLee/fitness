@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Fitness</string>
+    <string name="username">输入账号</string>
+    <string name="password">输入密码</string>
+    <string name="error">不能为空，请输入值</string>
+    <string name="login">登录 </string>
+
+    <string name="target">目标</string>
+    <string name="task">健身任务</string>
+    <string name="weight">记录我的体重</string>
+    <string name="diet">饮食</string>
+    <string name="home">首页</string>
+    <string name="record">运动记录</string>
+    <string name="help">帮助与反馈</string>
+    <string name="other">其他</string>
+    <string name="setting">设置</string>
+    <string name="addtarget">添加目标</string>
+    <string name="info">身体指标</string>
+    <string name="circle">
+M527.023,71.8233 C780.213,71.8233,985.464,277.075,985.464,530.265
+C985.464,783.455,780.213,988.707,527.023,988.707
+C273.832,988.707,68.5809,783.455,68.5809,530.265
+C68.5809,277.075,273.832,71.8233,527.023,71.8233 Z
+</string>
+    <integer name="circle_original_width">1000</integer>
+    <integer name="circle_original_height">1500</integer>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="theme">主题</string>
+    <string name="night">夜间模式</string>
+    <string name="tip">小贴士</string>
+</resources>
